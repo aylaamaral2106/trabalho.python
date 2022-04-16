@@ -1,4 +1,4 @@
-#Desenvolva um programa em Python que leia o primeiro nome de uma pessoa e seu salário do mês de abril e na sequência mostre uma mensagem formatada.
+#"Desenvolva um programa em Python que leia o primeiro nome de uma pessoa e seu salário do mês de abril e na sequência mostre uma mensagem formatada.(...)"
 nome = input("Insira seu nome: ")
 
 parte1nome = nome[0:10]
