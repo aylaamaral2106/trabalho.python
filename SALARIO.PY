@@ -1,22 +1,18 @@
 #"Desenvolva um programa em Python que leia o primeiro nome de uma pessoa e seu salário do mês de abril e na sequência mostre uma mensagem formatada.(...)"
-nome = input("Insira seu nome: ")
+nome = input("Digite seu Primeiro Nome: ")
 
-parte1nome = nome[0:10]
+parte1nome = nome[0:20]
 
-NomeFormatado = parte1nome + " recebeu um salario de: "
-
-print(NomeFormatado)
-
-salario = input("")
+salario = input("Digite seu salario: ")
 
 parte3salario = salario[0:1]
 parte4salario = salario[1:4]
 parte5salario = salario[4:6]
 
-SalarioFormatado = parte3salario + "." + parte4salario + "," + parte5salario
+salarioFormatado = parte3salario + "." + parte4salario + "," + parte5salario
 
-print(SalarioFormatado)
+RECEBIMENTO = parte1nome + " no mês de abril recebeu um salario de R$" + salarioFormatado + " reais"
 
-"nome + salario" 
+print(RECEBIMENTO)
 
 
